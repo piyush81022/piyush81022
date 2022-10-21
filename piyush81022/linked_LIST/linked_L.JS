@@ -52,31 +52,46 @@ class linkedlist{
         }
         return null
     }
-    insertAtB=Function(data){
-        let newNod=new node(data)
-        newNod.next=this.head
-        this.head=newNod
-        return this.head;
+    // insertAtB=Function(data)=>{
+    //     //let newNod=new node(data)
+    //     newNod.next=this.head
+    //     this.head=newNod
+    //     return this.head;
+    // }
+    insertelement=function(index){
+            let count=0
+            let node=this.head;
+            while(node){
+                if(count===index){
+                    return node ;
+                }
+                count++;
+                node =node.next
+            }
+            return null
     }
+
 }
 
 let node1=new node(23)//this is individual linked list ///
 let node2=new node(24)
 let node3=new node(69)
 let node4=new node(88)
+let node5=new node(20)
 node1.next=node2
 node2.next=node3
 node3.next=node4
 
 let list=new linkedlist(node1)
 let resNode=list.getAt(3)
-console.log(resNode.data)
+//console.log(resNode.data)
+//list.printlinkedL()
+//list.size()
+//list.getfirst()
+//console.log(list.getlast())
+//list.insertAtB(98)
 list.printlinkedL()
-list.size()
-list.getfirst()
-console.log(list.getlast())
-list.insertAtB(98)
-list.printlinkedL()
+list.insertelement(2)
 
 
 

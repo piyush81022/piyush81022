@@ -1,0 +1,31 @@
+boody{
+    font-family: arial;
+    background-color:rgb(233, 18, 18);
+}
+h3{
+    color: rgb(233, 18, 18);
+    
+}
+a[href*='google']{
+    color:green;
+    font-family: italic;
+}
+a[href*="hi"]{
+    color: yellowgreen;}
+
+ h1:hover{
+        color:red;
+ 
+    }
+    .1{
+        color:green;
+
+    }
+    .2{
+        color:blue;
+    }
+.combinator li {
+    color:blueviolet
+}
+
+

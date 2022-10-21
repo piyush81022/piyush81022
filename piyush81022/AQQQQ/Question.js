@@ -181,6 +181,12 @@
 // let arr=[]
 // console.log(s.split('').sort().join(''));
 
+let arr= [43, "what", 9, true, "cannot", false, "be", 3.5, true];
+for(let i=arr.length-1;  i<0;i--){
+  let arr1=[]
+  arr1.push(arr[i])
+   console.log(arr1)
+}
 
 
 

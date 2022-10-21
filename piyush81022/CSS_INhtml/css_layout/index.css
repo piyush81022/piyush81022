@@ -1,0 +1,27 @@
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: gold;
+    margin:20px;
+   text-align: center;
+    border:3px solid red;
+
+}
+.container{
+    display: flex;
+   flex-basis: 82px;
+   flex-grow: 0;
+    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
+    height: 90vh;
+    /* align-items: center; */
+    border: 3px solid red;
+    justify-content:flex-end;
+    
+}
+.item2{
+    flex: shrink 0;;
+}
+/* properties 
+ justify -content (main)
+  align-item */

@@ -1,0 +1,31 @@
+.top1{
+    background-color:red;
+    position:sticky;
+    top:1px;
+    color:white;
+    padding-top: 9px;
+    padding-bottom: 10px;
+}
+th {
+    padding-left: 20px;
+
+}
+.head{
+    color: white;
+    position: absolute;
+    top: 60px;
+    left: 180px;
+    
+}
+#section{
+    position: absolute;
+    top: 60px;
+    left: 30px;
+    
+}
+.head2{
+    position: absolute;
+    top:200px;
+    left:60px;
+    margin-right: 10px;
+}
